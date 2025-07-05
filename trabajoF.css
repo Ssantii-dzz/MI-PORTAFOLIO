@@ -1,0 +1,1016 @@
+h2{
+    color: #ffffff;
+}
+.cajaja{
+  border-top: 2px solid crimson;
+  box-shadow: 0 -5px 15px rgba(220, 20, 60, 0.2);
+  width: 1100px;
+  border-radius: t30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: auto;margin-top: 20px;
+  background-color: rgb(12, 12, 12); 
+}
+
+/*-----heder-----arriba*/
+.hder {
+  background: linear-gradient(to right, #1c1c1c, #0f0f0f);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid crimson;
+  box-shadow: 0 5px 15px rgba(220, 20, 60, 0.2);
+  text-decoration: none;
+}
+
+.logo-header {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px crimson;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo-header span {
+  color: crimson;
+}
+
+.logo-header:hover {
+  transform: scale(1.1);
+  color: #ffcccc;
+  text-shadow: 0 0 10px crimson;
+}
+
+.hder ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.hder ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.hder ul li a:hover {
+  color: crimson;
+}
+.btn {
+  background-color: crimson;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60026;
+  transform: scale(1.05);
+}
+/*-----heder-----arriba*/
+
+/*-----footer-----abajo*/
+.footer {
+  background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+  padding: 20px 20px;
+  text-align: center;
+  border-top: 2px solid crimson;
+  box-shadow: 0 -5px 15px rgba(220, 20, 60, 0.2);
+}
+
+.mensaje-footer {
+  font-size: 20px;
+  color: #f1f1f1;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-footer {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-shadow: 0 0 5px crimson;
+}
+
+.logo-footer span {
+  color: crimson;
+}
+
+.logo-footer:hover {
+  transform: scale(1.1);
+  color: #ffcccc;
+  text-shadow: 0 0 10px crimson;
+}
+
+.footer-nav {
+  margin-top: 20px;
+}
+
+.footer-nav a {
+  font-size: 16px;
+  margin: 0 15px;
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.footer-nav a:hover {
+  color: crimson;
+  transform: translateY(-2px);
+}
+/*-----footer-----arriba*/
+.logo{
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-shadow: 0 0 5px crimson;
+  padding: 8px 16px;
+  margin: 5px;
+  display: inline-block;
+}
+span{
+    color: #f90029;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+header ul li a:hover{
+    color: #f90029;
+    transition: 0s;
+}
+.btn{
+    background-color: #f90029;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: trasform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.cont{
+    top: 50%;
+    left: 8%;
+    text-align: center;
+}
+.cont1{
+    top: 50%;
+    left: 8%;
+    margin-left: 140px;
+}
+h1{
+    font-size: 50px;
+    color: #f90029;
+    line-height: 35%;
+}
+h3{
+    color: rgb(219, 219, 219);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgba(243, 243, 243, 0.8);
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+img{
+    width: 400px;
+    height: 500px;
+}
+.yo{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #0c0c0c;
+}
+.yo img{
+    height: auto;
+    width: 430px;
+}
+.texto{
+    width: 550px;
+}
+.contenedor{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.texto p{
+    color: rgba(253, 170, 253, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000;
+
+}
+
+.servicios {
+  padding: 60px 20px;
+}
+
+.servicios h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contenedor-servicios {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  padding: 0 20px;
+  overflow-x: auto;
+}
+
+.tarjeta-servicio {
+  background-color: #e0e0e0;
+  padding: 25px;
+  width: 220px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid transparent; /* Importante para animación */
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-servicio:hover {
+  border: 3px solid #f90029; /* Borde rojo al pasar el mouse */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icono {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.tarjeta-servicio h3 {
+  margin: 10px 0;
+  color: #e91e63;
+  font-size: 1.2rem;
+}
+
+.tarjeta-servicio p {
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+.titulos-servicios{
+    text-align: center;
+    color: #f90029;
+}
+
+
+
+
+
+.inicio {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contenedor-inicio-columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Títulos */
+.inicio h2 {
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* EDUCACIÓN: fila de tarjetas */
+.educacion-horizontal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Cada tarjeta */
+.nivel {
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.nivel:hover {
+  transform: scale(1.03);
+}
+
+.nivel h3 {
+  color: #f90029;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.fecha {
+  color: #ccc;
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+.instituto {
+  color: #ffefb3;
+  font-size: 1em;
+}
+
+/* SOFTWARES */
+.softwares {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.softwares img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.softwares img:hover {
+  transform: scale(1.1);
+}
+.experiencia-laboral {
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.experiencia-laboral h3 {
+  font-size: 25px;
+  color: #f90029;
+  margin-bottom: 8px;
+}
+
+.experiencia-laboral .empresa {
+  font-size: 1em;
+  color: #ffefb3;
+  margin-bottom: 4px;
+}
+
+.experiencia-laboral .fecha {
+  font-size: 0.95em;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.experiencia-laboral .descripcion {
+  color: rgba(253, 170, 253, 0.8);
+  font-style: italic;
+}
+
+
+
+
+/*fotografias*/
+.gale{
+  display: flex;
+  justify-content: center;
+}
+.grupo{
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.grupo:hover{
+  transform: scale(1.03);
+}
+.fotos{
+    width: 250px;
+    height: 250px;
+}
+.parrafos{
+  font-size: 12px;
+  width: 250px;
+}
+.ttfotos{
+  color: #000;
+  font-size: 13px;
+}
+.a1{
+    background-image: url(Fotografia/Ali-1.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a2{
+    background-image: url(Fotografia/Ali-2.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.a3{
+    background-image: url(Fotografia/Ali-3.3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a4{
+    background-image: url(Fotografia/Ali-4.4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+article{
+    background-color: #ffffff;
+    margin: auto;
+}
+.ali{
+  font-size: 25px;
+  color: #f90029;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.pali{
+  color: white;
+  text-align: center ;
+}
+.a6{
+    background-image: url(Fotografia/edi.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a5{
+    background-image: url(Fotografia/edi.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a9{
+    background-image: url(Fotografia/edi.5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a8{
+    background-image: url(Fotografia/edi.4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a7{
+    background-image: url(Fotografia/edi.3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.a10{
+    background-image: url(Fotografia/edi.6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.4s ease;
+}
+.ttf{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+
+
+/*illustracion digital*/
+.sofia{
+    background-image: url(illus/illu.8.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.persona1{
+    background-image: url(illus/persona1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.persona2{
+    background-image: url(illus/persona2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+.I1{
+    background-image: url(illus/illu.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.I2{
+    background-image: url(illus/illu.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.I3{
+    background-image: url(illus/illu.3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.galeill{
+  display: flex;
+  justify-content: center;
+}
+.grupoill{
+  background-color: #d1d1d1;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.grupoill:hover{
+  transform: scale(1.03);
+}
+.txillu{
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  color: rgba(253, 170, 253, 0.8);
+  padding-bottom: 10px;
+}
+.ttill{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.Sill1{
+    background-image: url(illus/illu.4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.Sill2{
+    background-image: url(illus/illu.5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.Sill3{
+    background-image: url(illus/illu.6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.Sill4{
+    background-image: url(illus/illu.7.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/*Illustracion a mano*/
+.galmano{
+  display: flex;
+  justify-content: center;
+}
+.gpomano{
+  background-color: #0f0f0f;
+  border: 2px solid #ffffff;
+  width: 400px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.gpomano:hover{
+  transform: scale(1.03);
+}
+.grupomano{
+  background-color: #0f0f0f;
+  border: 2px solid #ffffff;
+  width: 200px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.grupomano:hover{
+  transform: scale(1.03);
+}
+.txillu{
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  color: rgba(253, 170, 253, 0.8);
+  padding-bottom: 10px;
+}
+.ttill{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.txmano{
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  color: rgba(253, 170, 253, 0.8);
+  padding-bottom: 20px;
+}
+.mn1{
+    background-image: url(Amano/mano.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+.mn11{
+    background-image: url(Amano/mano.1.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+.mn2{
+    background-image: url(Amano/mano.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+}
+.mn22{
+    background-image: url(Amano/mano.2.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+}
+.mn3{
+    background-image: url(Amano/mano.3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 315px;
+}
+.mn33{
+    background-image: url(Amano/mano.3.3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 315px;
+}
+.mn4{
+    background-image: url(Amano/mano.4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+}
+.mn44{
+    background-image: url(Amano/mano.4.4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+}
+
+.submn{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+}
+.ttmn{
+  text-align: left;
+  margin: auto;
+  width: 800px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+.txmn{
+  text-align: left;
+  margin: auto;
+  width: 800px;
+  color: rgba(253, 170, 253, 0.8);
+  padding-bottom: 10px;
+  }
+  .ttmno{
+  font-size: 20px;
+  text-align: left;
+  margin: auto;
+  width: 800px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+/*editorial*/
+.galedi{
+  display: flex;
+  justify-content: center;
+}
+.grupoed{
+  background-color: #0f0f0f;
+  border: 2px solid #ffffff;
+  width: 250px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.grupoed:hover{
+  transform: scale(1.03);
+}
+.grupoedl{
+  background-color: #0f0f0f;
+  border: 2px solid #ffffff;
+  width: 270px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.grupoedl:hover{
+  transform: scale(1.03);
+}
+.filcali1{
+    background-image: url(Edi/FILCALI\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.filcali2{
+    background-image: url(Edi/FILCALI\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.lan1{
+    background-image: url(Edi/duerme/duerme.lanz.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.lan2{
+    background-image: url(Edi/repre/repre.lanz.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.lan3{
+    background-image: url(Edi/nostalgia/nost.lanz1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.lan33{
+    background-image: url(Edi/nostalgia/nost.lanz2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.lanza1{
+    background-image: url(Edi/duerme/duerme.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+}
+.lanza3{
+    background-image: url(Edi/nostalgia/nost.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+}
+.lanza2{
+    background-image: url(Edi/repre/repre.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;;
+}
+.ed1{
+    background-image: url(Edi/talleres/tall29.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.ed11{
+    background-image: url(Edi/talleres/tall29.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.ed2{
+    background-image: url(Edi/talleres/tall6.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.ed22{
+    background-image: url(Edi/talleres/tall6.2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.ed3{
+    background-image: url(Edi/talleres/tall8.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.ed33{
+    background-image: url(Edi/talleres/tall8.1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.mmm{
+  color: rgb(12, 12, 12); 
+}
+
+
+
+/*CONTACTO*/
+.texto{
+    width: 550px;
+}
+.contene{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.texto h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.texto p{
+    color: rgba(253, 170, 253, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.redes-contacto {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.redes-contacto img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.redes-contacto img:hover {
+  transform: scale(1.2);
+}
+
+/*yo fotografo*/
